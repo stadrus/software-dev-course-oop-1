@@ -39,6 +39,20 @@ public class Student {
         return name + " " + grade;
     }
 
+
     // Add a void method called addAbsence that increments the daysAbsent field by 1.
+    // += adds value to the daysAbsent variable
+    public void addAbsence() {
+        int i = daysAbsent += 1;
+        System.out.println("Days absent: " + i);
+    }
+
     // Add a void method called addBonusPoints that takes a double parameter bonusPoints and adds it to the grade field.
+    public void addBonusPoints(double bonusPoints) {
+         bonusPoints = 5;
+         double i = grade += bonusPoints;
+        System.out.println("Final grade: " + i);
+    }
+
 }
+

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa754f57-8d3f-447f-aa0e-728017f07765" name="Changes" comment="">
+    <list default="true" id="fa754f57-8d3f-447f-aa0e-728017f07765" name="Changes" comment="completed solo; 1.2">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,15 +36,18 @@
   "keyToString": {
     "Application.ClassroomManager.executor": "Run",
     "JUnit.All in software-dev-course-oop-1.executor": "Run",
+    "JUnit.StudentTests.testAddAbsence.executor": "Run",
+    "JUnit.StudentTests.testAddBonusPoints.executor": "Run",
+    "JUnit.TeacherTests.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/mikel/projects/java-new-curriculum/software-dev-course-oop-2/pom.xml"
+    "last_opened_file_path": "C:/Users/Stacey Tadrus/OneDrive/Documents/GitHub/launchcode/projects/java-curriculum/software-dev-course-oop-1"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ClassroomManager">
+  <component name="RunManager" selected="JUnit.StudentTests.testAddBonusPoints">
     <configuration name="ClassroomManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ClassroomManager" />
       <module name="software-dev-course-oop-1" />
@@ -65,8 +69,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentTests.testAddAbsence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="software-dev-course-oop-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.StudentTests" />
+      <option name="METHOD_NAME" value="testAddAbsence" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTests.testAddBonusPoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="software-dev-course-oop-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.StudentTests" />
+      <option name="METHOD_NAME" value="testAddBonusPoints" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeacherTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="software-dev-course-oop-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TeacherTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentTests.testAddBonusPoints" />
+        <item itemvalue="JUnit.StudentTests.testAddAbsence" />
+        <item itemvalue="JUnit.TeacherTests" />
         <item itemvalue="Application.ClassroomManager" />
         <item itemvalue="JUnit.All in software-dev-course-oop-1" />
       </list>
@@ -81,6 +135,30 @@
       <option name="presentableId" value="Default" />
       <updated>1738943613140</updated>
     </task>
+    <task id="LOCAL-00001" summary="completed solo; 1.2">
+      <option name="closed" value="true" />
+      <created>1749483361295</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749483361295</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="completed solo; 1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed solo; 1.2" />
   </component>
 </project>
