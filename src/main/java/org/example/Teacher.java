@@ -27,9 +27,12 @@ public class Teacher {
     public void setClassName(String className) {
         this.className = className;
     }
+
+
     // Add a toString method that returns the teacher's name and className in the following format:
     // name (className)
-    private String getNameAndClassName(){
-        return this.name + (this.className);
+    @Override
+    public String toString() {
+        return name + " " + '(' + (className) + ')';
     }
 }
